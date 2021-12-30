@@ -4,7 +4,9 @@
 namespace Mhabedini\Skeleton\Providers;
 
 
-class SkeletonServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+class SkeletonServiceProvider extends ServiceProvider
 {
 
 }

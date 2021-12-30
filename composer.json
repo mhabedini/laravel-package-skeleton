@@ -1,10 +1,10 @@
 {
     "name": "mhabedini/laravel-package-skeleton",
-    "type": "library",
+    "type": "template",
     "license": "MIT",
 	"autoload": {
         "psr-4": {
-            "Mhabedini\\Skeleton": "src/"
+            "Mhabedini\\Skeleton\\": "src/"
         }
     },
     "autoload-dev": {
@@ -21,8 +21,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4|^8.0"
-	},
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0"
+    },
 	"require-dev": {
         "orchestra/testbench": "^6.22"
     },
