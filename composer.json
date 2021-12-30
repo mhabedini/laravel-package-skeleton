@@ -1,0 +1,36 @@
+{
+    "name": "mhabedini/laravel-package-skeleton",
+    "type": "library",
+    "license": "MIT",
+	"autoload": {
+        "psr-4": {
+            "Mhabedini\\Skeleton": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mhabedini\\Skeleton\\" : "tests/"
+        }
+    },
+	"authors": [
+        {
+            "name": "Mohammad Hosein Abedini",
+            "email": "mohammadhoseinabedini@gmail.com"
+        }
+	],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4|^8.0"
+	},
+	"require-dev": {
+        "orchestra/testbench": "^6.22"
+    },
+	"extra": {
+        "laravel": {
+            "providers": [
+                "Mhabedini\\Skeleton\\Providers\\SkeletonServiceProvider"
+            ]
+        }
+    }
+}
